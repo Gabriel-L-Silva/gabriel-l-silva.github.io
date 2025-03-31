@@ -1,32 +1,9 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { useState } from 'react'
 import { EnvelopeIcon, MapPinIcon, PhoneIcon, LinkIcon } from '@heroicons/react/24/outline'
 
 const Contact = () => {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: '',
-  })
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-    // Handle form submission here
-    console.log(formData)
-  }
-
-  const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
-  ) => {
-    const { name, value } = e.target
-    setFormData((prev) => ({
-      ...prev,
-      [name]: value,
-    }))
-  }
-
   return (
     <section id="contact" className="section-padding bg-gradient-to-b from-[#0a1120] to-[#111827] bg-smooth-gradient-vertical texture-overlay">
       <motion.div
@@ -74,58 +51,28 @@ const Contact = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
             viewport={{ once: true }}
-            className="bg-[#111827]/70 p-8 rounded-xl backdrop-blur-sm border border-gray-800 hover:border-blue-900 transition-all"
+            className="bg-[#111827]/70 p-8 rounded-xl backdrop-blur-sm border border-gray-800 hover:border-blue-900 transition-all flex flex-col items-center justify-center"
           >
-            <form onSubmit={handleSubmit} className="space-y-4">
-              <div>
-                <label htmlFor="name" className="mb-2 block text-gray-300">
-                  Name
-                </label>
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  value={formData.name}
-                  onChange={handleChange}
-                  className="w-full rounded-lg bg-black/40 p-3 text-white outline-none focus:ring-2 focus:ring-blue-500 border border-gray-700"
-                  required
-                />
-              </div>
-              <div>
-                <label htmlFor="email" className="mb-2 block text-gray-300">
-                  Email
-                </label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  value={formData.email}
-                  onChange={handleChange}
-                  className="w-full rounded-lg bg-black/40 p-3 text-white outline-none focus:ring-2 focus:ring-blue-500 border border-gray-700"
-                  required
-                />
-              </div>
-              <div>
-                <label htmlFor="message" className="mb-2 block text-gray-300">
-                  Message
-                </label>
-                <textarea
-                  id="message"
-                  name="message"
-                  value={formData.message}
-                  onChange={handleChange}
-                  rows={4}
-                  className="w-full rounded-lg bg-black/40 p-3 text-white outline-none focus:ring-2 focus:ring-blue-500 border border-gray-700"
-                  required
-                />
-              </div>
-              <button
-                type="submit"
-                className="w-full rounded-full bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 px-6 py-3 text-white transition-all hover:from-blue-700 hover:via-indigo-700 hover:to-purple-700"
-              >
-                Send Message
-              </button>
-            </form>
+            <h3 className="mb-6 text-xl font-semibold text-white text-center">Send Me a Message</h3>
+            <p className="mb-8 text-gray-300 text-center">
+              Click the button below to open your email client and send me a message directly.
+            </p>
+            <a 
+              href="mailto:gls.facom@gmail.com?subject=Contact from Portfolio Website" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full rounded-full bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 px-6 py-3 text-white text-center transition-all hover:from-blue-700 hover:via-indigo-700 hover:to-purple-700 mb-4"
+            >
+              Email Me
+            </a>
+            <a 
+              href="/assets/Gabriel-Silva-Resume-1.pdf" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full rounded-full border border-gray-600 px-6 py-3 text-white text-center transition-all hover:bg-white/10 hover:border-blue-500 mt-2"
+            >
+              View Resume
+            </a>
           </motion.div>
         </div>
       </motion.div>

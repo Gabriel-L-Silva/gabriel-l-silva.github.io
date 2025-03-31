@@ -25,14 +25,17 @@ const Hero = () => {
         </p>
         <div className="flex gap-4">
           <a
-            href="#contact"
+            href="mailto:gls.facom@gmail.com?subject=Contact from Portfolio Website"
+            target="_blank"
+            rel="noopener noreferrer"
             className="rounded-full bg-gradient-to-r from-blue-600 to-purple-600 px-6 py-3 text-white transition-all hover:from-blue-700 hover:to-purple-700"
           >
             Contact Me
           </a>
           <a
-            href="/Gabriel-Silva-Resume-1.pdf"
+            href="/assets/Gabriel-Silva-Resume-1.pdf"
             target="_blank"
+            rel="noopener noreferrer"
             className="rounded-full border border-gray-600 px-6 py-3 text-white transition-all hover:bg-white/10 hover:border-blue-500"
           >
             View Resume
