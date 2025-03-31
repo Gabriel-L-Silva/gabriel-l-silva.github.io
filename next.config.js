@@ -20,18 +20,7 @@ const nextConfig = {
       },
     ],
     unoptimized: true,
-  },
-  // Generate .nojekyll file to prevent GitHub Pages from ignoring files
-  // starting with underscore (_next)
-  webpack: (config) => {
-    // This adds the .nojekyll file during the build
-    config.plugins.push(
-      new config.plugins.constructor.DefinePlugin({
-        '__NEXT_NOJEKYLL__': true,
-      })
-    );
-    return config;
-  },
+  }
 }
 
 module.exports = nextConfig 
