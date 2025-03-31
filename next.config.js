@@ -2,9 +2,12 @@
 const nextConfig = {
   reactStrictMode: true,
   output: 'export',
-  // Ensure this matches your GitHub repository name
-  basePath: process.env.NODE_ENV === 'production' ? '/gabriel-l-silva.github.io' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/gabriel-l-silva.github.io/' : '',
+  // GitHub Pages for username.github.io doesn't need basePath
+  basePath: '',
+  // No need for assetPrefix for username.github.io sites
+  assetPrefix: '',
+  // Disable trailing slashes in routes
+  trailingSlash: false,
   images: {
     remotePatterns: [
       {
@@ -17,6 +20,17 @@ const nextConfig = {
       },
     ],
     unoptimized: true,
+  },
+  // Generate .nojekyll file to prevent GitHub Pages from ignoring files
+  // starting with underscore (_next)
+  webpack: (config) => {
+    // This adds the .nojekyll file during the build
+    config.plugins.push(
+      new config.plugins.constructor.DefinePlugin({
+        '__NEXT_NOJEKYLL__': true,
+      })
+    );
+    return config;
   },
 }
 

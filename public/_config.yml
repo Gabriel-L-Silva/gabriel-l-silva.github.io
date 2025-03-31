@@ -1,0 +1,2 @@
+include: [.nojekyll]
+keep_files: [.git, .svn, _next] 
