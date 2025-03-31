@@ -1,0 +1,79 @@
+Rio de Janeiro, 20550070 Brazil |+5567992946955 |gls.facom@gmail.com |WWW : Bold Profile
+GABRIEL LUCAS DA SILVA
+SKILLS Python● API Development●
+Software Development● Computer Simulations●
+ML● Computer vision●
+Azure● Deep Learning●
+Robotics● Computer Graphics●
+Object-oriented programming● SQL●
+WEBSITES,
+PORTFOLIOS,
+PROFILESlinkedin.com/in/gabriel-lucas-da-silva●
+Brazilian-based Python Software Engineer with a strong background in Computer
+Engineering and over two years of hands-on AI experience. Skilled in utilizing advanced
+technologies such as OpenCV, PyTorch, LangChain, LangGraph, TensorFlow, and Azure to
+develop and deploy high-performance AI solutions. Successfully brought a project back on
+track after falling behind schedule for several months by leveraging solid software
+engineering foundation and ensuring timely delivery. Achieved remarkable results by
+reducing the margin of error from 30% to 3-5% through implementing new algorithms
+based on software development experience and utilizing OpenCV and sci-kit-learn for
+clustering. Excels in fostering client relationships and presenting solutions in a compelling
+manner that showcases the team's skills and leaves clients eager for the finished project.
+The objective is to develop solutions that improve the planet and leave a legacy of
+kindness and hope for future generations.PROFESSIONAL
+SUMMARY
+PYTHON BACKEND SOFTWARE ENGINEER 02/2024  to Current
+Citric Sheep
+DATA ENGINEER 05/2023  to 02/2024
+AI Solutions , Campo Grande - MS, BrazilWORK HISTORY
+Engineered and implemented a high-precision computer vision system for real-time
+luggage dimensioning using RGBD camera technology on conveyor belts●
+The solution dramatically improved measurement accuracy from 30% error margin to
+3-5%, delivering a robust and tunable system that became a reliable cornerstone of the
+operation's automation pipeline●
+The architecture leveraged YOLO, SAM, OpenCV, and custom depth-based algorithms for
+dimensional calculations●
+Developed a chatbot system that helped sales representatives take advantage of the
+company's API and provide data-driven insights●
+Designed and developed an agentic workflow using LangGraph and LangChain to
+orchestrate the LLMs and provide more specific prompts for each chatbot task●
+Enhanced and optimized the existing testing for a critical database migration project,●FRONTEND SOFTWARE ENGINEER 01/2020  to 06/2020
+ENGETEC MEDICAL , Campo Grande - MS, Brazilimplementing automated solutions and leading the testing to ensure data integrity
+across complex ETL processes.
+Improvements streamlined validation workflows and reduced manual testing efforts by
+generalizing test patterns. This enabled faster migration cycles while maintaining high
+data quality standards and reducing development time by approximately 15%.●
+The optimization leveraged SQL for comprehensive data validation, Jinja templating for
+test automation, and Python for ETL pipeline testing, demonstrating problem-solving
+solid skills in database migration and test automation.●
+Developed the front end in Flutter for an electronic time-tracking app.●
+Collaborative team environment.●
+Implemented five pages in 2 months.●
+Developed scalable and maintainable code, ensuring long-term stability of the software.●
+Instituto De Ciências Matemáticas E De Computação (ICMC) - USP , São Paulo - SP,
+Brazil
+Master of Science , Computer Graphics , Expected in 01/2025
+As part of my Master's in Computer Science and Applied Mathematics, I am working on
+developing a smoke simulation using the RBF-FD technique. This technique leverages
+radial basis functions to discretize the partial differential equations governing smoke
+behavior, allowing for more accurate and efficient simulations. Smoke simulation is an
+important area in computer graphics, used in games, movies, and other visual
+applications. I am excited to contribute to advancements in this field and look forward to
+sharing my results soon.
+Universidade Federal De Mato Grosso Do Sul , Campo Grande - MS, Brazil
+Bachelor of Science - BS , Computer Engineering , 01/2021
+As a Computer Engineer, I specialize in designing, developing, and implementing hardware
+and software solutions across various applications. With expertise in programming,
+embedded systems, computer networks, and artificial intelligence, I am equipped to create
+innovative solutions to complex problems. My background in Computer Engineering has
+given me a solid understanding of fundamental principles in electronics, computer
+architecture, and algorithms. I have also developed data analysis and mathematical
+modeling skills, enabling me to make informed, evidence-based decisions.EDUCATION
+CERTIFICATIONS LARC/CBR-2018 IEEE Standard Education Kits - IEEE●
+LARC/CBR-2019 @home - IEEE●
+Scrum Foundation Professional Certificate(SFPC) - Certiprof●
+Front-end Development with React - Coursera●
+Applying SOLID Principles in practice - Udemy●
+English
+Bilingual or Proficient (C2)Portuguese
+Bilingual or Proficient (C2)LANGUAGES
